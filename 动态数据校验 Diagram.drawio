@@ -1,1 +1,65 @@
-<mxfile host="app.diagrams.net" modified="2021-11-05T07:45:42.355Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" version="15.5.9" etag="ikAteyxWtv--djuW3Nct" type="github"><diagram id="vqCvoLoCLRVgt8GvoWlM">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-11-05T07:58:18.895Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="NMmpO87OnPcG301kNTx6" version="15.5.9" type="github">
+  <diagram id="vqCvoLoCLRVgt8GvoWlM" name="Page-1">
+    <mxGraphModel dx="1422" dy="772" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="zasJfB-eg4Ot9YK-Ku_A-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zasJfB-eg4Ot9YK-Ku_A-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="270" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zasJfB-eg4Ot9YK-Ku_A-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zasJfB-eg4Ot9YK-Ku_A-1" target="zasJfB-eg4Ot9YK-Ku_A-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zasJfB-eg4Ot9YK-Ku_A-1" value="解析字段约束规则" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zasJfB-eg4Ot9YK-Ku_A-2" value="1、邮箱规则&lt;br&gt;2、必填规则&lt;br&gt;3、手机号校验规则&lt;br&gt;4、正则规则" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="180" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="zasJfB-eg4Ot9YK-Ku_A-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zasJfB-eg4Ot9YK-Ku_A-3" target="zasJfB-eg4Ot9YK-Ku_A-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zasJfB-eg4Ot9YK-Ku_A-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zasJfB-eg4Ot9YK-Ku_A-3" target="zasJfB-eg4Ot9YK-Ku_A-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zasJfB-eg4Ot9YK-Ku_A-3" value="匹配对应规则处理器" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zasJfB-eg4Ot9YK-Ku_A-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zasJfB-eg4Ot9YK-Ku_A-4" target="zasJfB-eg4Ot9YK-Ku_A-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zasJfB-eg4Ot9YK-Ku_A-4" value="动态数据" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="70" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zasJfB-eg4Ot9YK-Ku_A-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="zasJfB-eg4Ot9YK-Ku_A-5" target="zasJfB-eg4Ot9YK-Ku_A-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="350" y="585" />
+              <mxPoint x="350" y="470" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zasJfB-eg4Ot9YK-Ku_A-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zasJfB-eg4Ot9YK-Ku_A-5" target="zasJfB-eg4Ot9YK-Ku_A-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zasJfB-eg4Ot9YK-Ku_A-5" value="跳出" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="545" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="zasJfB-eg4Ot9YK-Ku_A-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zasJfB-eg4Ot9YK-Ku_A-6" target="zasJfB-eg4Ot9YK-Ku_A-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zasJfB-eg4Ot9YK-Ku_A-6" value="字段数据校验" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zasJfB-eg4Ot9YK-Ku_A-12" value="输出校验结果" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="680" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zasJfB-eg4Ot9YK-Ku_A-14" value="1、邮箱处理器&lt;br&gt;2、必填处理器&lt;br&gt;3、手机号校验处理器&lt;br&gt;4、正则处理器" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="300" width="120" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
